@@ -1,0 +1,129 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #101827;
+  color: #f1f5f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px;
+  background: #172438;
+  border-bottom: 1px solid #304158;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  background: #1685e8;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+header h1 {
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+header p {
+  color: #a9bbcf;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+#status {
+  margin-left: auto;
+  color: #65d69a;
+  font-size: 12px;
+}
+
+main {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 22px;
+  flex: 1;
+}
+
+#welcome {
+  margin: 35px 0;
+  text-align: center;
+}
+
+#welcome h2 {
+  font-size: 27px;
+  margin-bottom: 12px;
+}
+
+#welcome p {
+  color: #a9bbcf;
+  line-height: 1.6;
+}
+
+#chat {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.message {
+  padding: 14px;
+  border-radius: 14px;
+  max-width: 90%;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.user {
+  background: #176dc1;
+  align-self: flex-end;
+}
+
+.turbo {
+  background: #223249;
+  align-self: flex-start;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  background: #172438;
+  border-top: 1px solid #304158;
+  position: sticky;
+  bottom: 0;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #40536d;
+  background: #101827;
+  color: white;
+  font-size: 16px;
+}
+
+button {
+  padding: 14px 18px;
+  border: 0;
+  border-radius: 12px;
+  background: #1685e8;
+  color: white;
+  font-weight: bold;
+}
