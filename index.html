@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <title>TURBO - Inteligencia Artificial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">T</div>
+    <div>
+      <h1>TURBO</h1>
+      <p>Asistente técnico argentino</p>
+    </div>
+    <span id="status">Preparando</span>
+  </header>
+
+  <main>
+    <section id="welcome">
+      <h2>¡Hola! Soy TURBO.</h2>
+      <p>Tu asistente de inteligencia artificial.
+      ¿Qué vamos a aprender o crear hoy?</p>
+    </section>
+
+    <section id="chat" aria-live="polite"></section>
+  </main>
+
+  <form id="chat-form">
+    <input id="message" type="text"
+      placeholder="Escribí tu pregunta..."
+      autocomplete="off">
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>
